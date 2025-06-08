@@ -1,0 +1,128 @@
+@media (max-width: 768px) {
+    section {
+        height: auto;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .main_page p {
+
+        font-size: 12px;
+        margin: 20px 15px;
+    }
+
+    .company_text p {
+        font-size: 26px;
+        margin: 10px 15px;
+    }
+
+    .companies {
+        width: auto;
+        margin: 20px 15px;
+        padding: 15px;
+    }
+
+    .companies .general_info {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .companies .name {
+        font-size: 20px;
+    }
+
+    .companies .position {
+        font-size: 16px;
+    }
+
+    .circle_text {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        font-size: 12px;
+        top: 270px;
+        left: 150px;
+    }
+
+    .circle_text p {
+        margin-top: 30px;
+    }
+
+    .company1,
+    .company2,
+    .company3,
+    .company4,
+    .company5,
+    .company6,
+    .company7 {
+        position: absolute;
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+    }
+
+    .company1 {
+        top: 540px;
+        right: 10px;
+    }
+    .company2 {
+        top: 860px;
+        right: 10px;
+    }
+    .company3 {
+        top: 920px;
+        right: 190px;
+    }
+    .company4 {
+        top: 780px;
+        right: 160px;
+    }
+    .company5 {
+        top: 680px;
+        right: 60px;
+    }
+    .company6 {
+        top: 680px;
+        right: 260px;
+    }
+
+    .ellipse1,
+    .ellipse2,
+    .ellipse3,
+    .ellipse4,
+    .ellipse5,
+    .ellipse6,
+    .ellipse7 {
+        display: none;
+    }
+
+    .mobile_ellipses1 {
+        display: block;
+        position: relative;
+        width: 200px;
+        height: 200px;
+        left: 100px;
+        top: 120px;
+    }
+
+    .mobile_ellipses1 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .mobile_ellipses3 {
+        display: block;
+        position: relative;
+        width: 450px;
+        height: 450px;
+        right: 20px;
+        top: -180px;
+    }
+
+    .mobile_ellipses3 img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+

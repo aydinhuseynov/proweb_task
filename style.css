@@ -1,0 +1,382 @@
+   * {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+   }
+
+
+
+   #main_logo {
+       width: 152px;
+       height: 32px;
+   }
+
+   /* .navbar-toggler-icon {
+       width: 30px;
+       height: 30px;
+       background-size: 30px 20px;
+   } */
+
+   .btn {
+       border-radius: 30px;
+       padding: 5px 32px;
+   }
+
+   .navbar-nav .nav-link {
+       position: relative;
+       transition: color 0.3s;
+   }
+
+   .navbar-nav .nav-link::after {
+       content: '';
+       position: absolute;
+       width: 0%;
+       height: 2px;
+       background-color: #00aaff;
+       left: 0;
+       bottom: 0;
+       transition: 0.3s;
+   }
+
+   .navbar-nav .nav-link:hover::after {
+       width: 100%;
+   }
+
+   .navbar-nav .nav-link:hover {
+       color: #00aaff;
+   }
+
+   .logo-text {
+       font-weight: bold;
+       font-size: 1.5rem;
+   }
+
+   .logo-text span {
+       color: #00aaff;
+       font-family: monospace;
+   }
+
+   .btn-outline-dark:hover {
+       background-color: #00aaff;
+       color: white;
+       border-color: #00aaff;
+   }
+
+   .language-switcher {
+       display: flex;
+       align-items: center;
+   }
+
+   .card-area {
+       margin-top: 30px;
+       transition: 0.3s;
+   }
+
+   /* MAIN SECTION */
+
+   section {
+       height: 550px;
+   }
+
+   .mobile_ellipses1,
+   .mobile_ellipses2,
+   .mobile_ellipses3 {
+       display: none;
+   }
+
+   .main_page p {
+       font-weight: 100;
+       font-size: 14px;
+       margin: 20px 0 0 20px;
+   }
+
+   .company_text p {
+       font-weight: 500;
+       font-size: 44px;
+       margin: 10px 0 0 18px;
+   }
+
+   .company_text span {
+       color: #06A4ED;
+   }
+
+   .companies {
+       border-radius: 20px;
+       width: 460px;
+       color: #fff;
+       background-color: #2DB9F9;
+       padding: 20px;
+       margin: 15px 90px;
+   }
+
+   .companies .general_info {
+       font-size: 16px;
+       font-weight: 300;
+   }
+
+   .companies .name {
+       font-weight: 600;
+       font-size: 24px;
+   }
+
+   .companies .position {
+       font-weight: 300;
+       font-size: 20px;
+   }
+
+   .circle_text {
+       background-color: #06A4ED;
+       border-radius: 200px;
+       width: 130px;
+       height: 130px;
+       position: absolute;
+       text-align: center;
+       color: #fff;
+       top: 335px;
+       right: 83px;
+       font-size: 14px;
+   }
+
+   .circle_text p {
+       margin-top: 15px;
+   }
+
+   .ellipse1 {
+       position: absolute;
+       right: 50px;
+       top: 300px;
+       width: 200px;
+       height: 200px;
+   }
+
+   .ellipse2 {
+       position: absolute;
+       top: 200px;
+       right: 1px;
+       width: 400px;
+       height: 400px;
+   }
+
+
+   .ellipse3 {
+       position: absolute;
+       top: 120px;
+       right: 0px;
+       width: 500px;
+       height: 550px;
+       z-index: -1;
+   }
+
+
+   .ellipse4 {
+       position: absolute;
+       top: 60px;
+       right: 10px;
+       width: 580px;
+       height: 670px;
+       z-index: -1;
+   }
+
+
+   .ellipse5 {
+       position: absolute;
+       top: 60px;
+       right: 10px;
+       width: 730px;
+       height: 730px;
+       z-index: -1;
+       overflow: hidden;
+   }
+
+
+   .ellipse6 {
+       position: absolute;
+       top: 60px;
+       right: 5px;
+       width: 850px;
+       height: 850px;
+       z-index: -1;
+       overflow: hidden;
+   }
+
+
+   .ellipse7 {
+       position: absolute;
+       top: 50px;
+       right: 25px;
+       width: 980px;
+       height: 880px;
+       z-index: -1;
+       overflow: hidden;
+   }
+
+   .company1 {
+       width: 100px;
+       height: 100px;
+       position: absolute;
+       top: 180px;
+       right: 30px;
+       z-index: 99;
+   }
+
+   .company2 {
+       width: 80px;
+       height: 80px;
+       position: absolute;
+       top: 300px;
+       right: 25px;
+       z-index: 99;
+   }
+
+   .company3 {
+       width: 100px;
+       height: 100px;
+       position: absolute;
+       top: 300px;
+       right: 305px;
+       z-index: 99;
+   }
+
+   .company4 {
+       width: 80px;
+       height: 80px;
+       position: absolute;
+       top: 380px;
+       right: 200px;
+       z-index: 99;
+   }
+
+   .company5 {
+       width: 100px;
+       height: 100px;
+       position: absolute;
+       top: 180px;
+       right: 200px;
+       z-index: 99;
+   }
+
+   .company6 {
+       width: 80px;
+       height: 80px;
+       position: absolute;
+       top: 450px;
+       right: 50px;
+       z-index: 99;
+   }
+
+   .company7 {
+       width: 100px;
+       height: 100px;
+       position: absolute;
+       top: 500px;
+       right: 250px;
+       z-index: 99;
+   }
+
+   .ellipse1 img,
+   .ellipse2 img,
+   .ellipse3 img,
+   .ellipse4 img,
+   .ellipse5 img,
+   .ellipse6 img,
+   .ellipse7 img,
+   .company1 img,
+   .company2 img,
+   .company3 img,
+   .company4 img,
+   .company5 img,
+   .company6 img,
+   .company7 img {
+       width: 100%;
+       height: 100%;
+   }
+
+
+
+   /* FOOTER SECTION */
+   footer {
+       background-color: #000;
+       color: white;
+       padding: 60px 20px;
+       border-top-left-radius: 100px;
+       border-top-right-radius: 100px;
+   }
+
+   .footer-title {
+       font-size: 1.5rem;
+       font-weight: bold;
+   }
+
+   .footer-text {
+       color: rgba(145, 145, 145, 1);
+       width: 380px;
+       font-size: 14px;
+   }
+
+   .footer-link {
+       color: #ccc;
+       text-decoration: none;
+
+   }
+
+   .footer-link:hover {
+       text-decoration: underline;
+       color: #13ABF2;
+       transition: all 0.3s ease;
+   }
+
+   .subscribe-input {
+       border-top-left-radius: 25px;
+       border-bottom-left-radius: 25px;
+       border: none;
+       padding: 8px 32px;
+       outline: none;
+   }
+
+   .subscribe-button {
+       border-top-right-radius: 25px;
+       border-bottom-right-radius: 25px;
+       background-color: #B9FF00;
+       border: none;
+       padding: 2px 25px;
+       color: #000;
+       font-weight: 400;
+       display: inline-flex;
+       align-items: center;
+       gap: 5px;
+       margin-left: -5px;
+       white-space: nowrap;
+   }
+
+   .social-icons a {
+       color: white;
+       font-size: 1.2rem;
+       margin-right: 20px;
+   }
+
+   .social-icons a:hover {
+       color: #13ABF2;
+       border-radius: 10px;
+   }
+
+   .footer-bottom {
+       border-top: 1px solid #555;
+       margin-top: 30px;
+       padding-top: 20px;
+   }
+
+   .companies.slide-in {
+       animation: slideInRight 0.5s ease;
+   }
+
+   @keyframes slideInRight {
+       from {
+           transform: translateX(-100%);
+           opacity: 0;
+       }
+
+       to {
+           transform: translateX(0);
+           opacity: 1;
+       }
+   }
